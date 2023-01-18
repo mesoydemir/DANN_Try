@@ -132,5 +132,3 @@ for epoch in xrange(n_epoch):
     torch.save(my_net, '{0}/mnist_mnistm_model_epoch_{1}.pth'.format(model_root, epoch))
     test(source_dataset_name, epoch)
     test(target_dataset_name, epoch)
-
-print 'done'
