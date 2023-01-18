@@ -5,6 +5,7 @@ import torch.optim as optim
 import torch.utils.data
 from torch.autograd import Variable
 from dataset.data_loader import GetLoader
+from models.img_cnn_model import CNNModel
 from torchvision import datasets
 from torchvision import transforms
 import numpy as np
