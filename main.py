@@ -61,7 +61,7 @@ for p in my_net.parameters():
     p.requires_grad = True
 
 # training
-
+"""
 for epoch in range(n_epoch):
 
     len_dataloader = min(len(dataloader_source_train), len(dataloader_target_train))
@@ -133,3 +133,4 @@ for epoch in range(n_epoch):
     torch.save(my_net, '{0}/mnist_mnistm_model_epoch_{1}.pth'.format(model_root, epoch))
     #test(source_dataset_name, epoch)
     #test(target_dataset_name, epoch)
+"""
